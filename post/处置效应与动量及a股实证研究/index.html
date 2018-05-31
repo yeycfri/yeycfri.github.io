@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>处置效应与动量及A股实证研究 - Yaocheng Ye</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Yaocheng Ye" />
+  <meta name="description" content="处置效应 处置效应即交易者在盈利时倾向于获利了结，而亏损时往往死扛。这可以从前景理论和心理账户理论来得到解释：股票账面盈利时，获利了结相当于是收益确定的，即前景理论中确定效应，在收益上风险厌恶；股票账面亏损时，交易者是风险偏好的，因而不愿意实现亏损。同时，在不同的股票在交易者心中对应的是不同的心理账户，互不影响。
+
+" />
+
+  <meta name="keywords" content="quant, code, investment" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/%E5%A4%84%E7%BD%AE%E6%95%88%E5%BA%94%E4%B8%8E%E5%8A%A8%E9%87%8F%E5%8F%8Aa%E8%82%A1%E5%AE%9E%E8%AF%81%E7%A0%94%E7%A9%B6/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="处置效应与动量及A股实证研究" />
+<meta property="og:description" content="处置效应
+
+处置效应即交易者在盈利时倾向于获利了结，而亏损时往往死扛。这可以从前景理论和心理账户理论来得到解释：股票账面盈利时，获利了结相当于是收益确定的，即前景理论中确定效应，在收益上风险厌恶；股票账面亏损时，交易者是风险偏好的，因而不愿意实现亏损。同时，在不同的股票在交易者心中对应的是不同的心理账户，互不影响。
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/%E5%A4%84%E7%BD%AE%E6%95%88%E5%BA%94%E4%B8%8E%E5%8A%A8%E9%87%8F%E5%8F%8Aa%E8%82%A1%E5%AE%9E%E8%AF%81%E7%A0%94%E7%A9%B6/" />
+
+
+
+<meta property="article:published_time" content="2018-05-31T17:35:55&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-05-31T17:35:55&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="处置效应与动量及A股实证研究">
+<meta itemprop="description" content="处置效应
+
+处置效应即交易者在盈利时倾向于获利了结，而亏损时往往死扛。这可以从前景理论和心理账户理论来得到解释：股票账面盈利时，获利了结相当于是收益确定的，即前景理论中确定效应，在收益上风险厌恶；股票账面亏损时，交易者是风险偏好的，因而不愿意实现亏损。同时，在不同的股票在交易者心中对应的是不同的心理账户，互不影响。
+
+">
+
+
+<meta itemprop="datePublished" content="2018-05-31T17:35:55&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-31T17:35:55&#43;08:00" />
+<meta itemprop="wordCount" content="647">
+
+
+
+<meta itemprop="keywords" content="行为金融,实证资产定价," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="处置效应与动量及A股实证研究"/>
+<meta name="twitter:description" content="处置效应
+
+处置效应即交易者在盈利时倾向于获利了结，而亏损时往往死扛。这可以从前景理论和心理账户理论来得到解释：股票账面盈利时，获利了结相当于是收益确定的，即前景理论中确定效应，在收益上风险厌恶；股票账面亏损时，交易者是风险偏好的，因而不愿意实现亏损。同时，在不同的股票在交易者心中对应的是不同的心理账户，互不影响。
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Yaocheng Ye</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About Me</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Yaocheng Ye</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About Me</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">处置效应与动量及A股实证研究</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-05-31 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D/"> 行为金融 </a>
+            
+              <a href="/categories/%E5%AE%9E%E8%AF%81%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/"> 实证资产定价 </a>
+            
+          </div>
+        <span class="more-meta"> 647 words </span>
+        <span class="more-meta"> 2 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#处置效应">处置效应</a></li>
+<li><a href="#模型">模型</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h2 id="处置效应">处置效应</h2>
+
+<p>处置效应即交易者在盈利时倾向于获利了结，而亏损时往往死扛。这可以从前景理论和心理账户理论来得到解释：股票账面盈利时，获利了结相当于是收益确定的，即前景理论中确定效应，在收益上风险厌恶；股票账面亏损时，交易者是风险偏好的，因而不愿意实现亏损。同时，在不同的股票在交易者心中对应的是不同的心理账户，互不影响。</p>
+
+<p></p>
+
+<h2 id="模型">模型</h2>
+
+<p>Grinblatt和Han首先假设：</p>
+
+<ul>
+<li>我们要研究的一只股票供应固定，且归一化到1。</li>
+<li>在每期$t=0,1,2,\cdots$，关于股票基本面的公开新闻在当期交易前到达。</li>
+
+<li><p>股票的基本价值遵循随机游走，有</p>
+
+<p>$$ F_{t+1} = F_t + \epsilon _{t+1} \tag{1}\label{1} $$</p></li>
+
+<li><p>市场中有两种类型的交易者</p>
+
+<ul>
+<li>理性交易者（r型）比例为$1-\mu$</li>
+<li>处置效应交易者（d型）比例为$\mu$</li>
+</ul></li>
+
+<li><p>在$t$期，各种类型交易者的需求函数为
+$$ D^r_t=1+b_t(F_t-P_t) \tag{2}\label{2} $$
+$$ D^d_t=1+b_t[(F_t-P_t)+\lambda(R_t-P_t)] \tag{3}\label{3} $$</p>
+
+<ul>
+<li>$P_t$是股票的市场价格</li>
+<li>$R_t$代表所有d型交易者加权平均的交易价格</li>
+<li>$F_t$是股票的理性均衡价格，即基本价值</li>
+<li>$b_t$是一个正系数，为正是因为，股票基本价值超过市场价值，则理性交易者更想买这只股票</li>
+<li>$\lambda$是一个正系数，为正是因为，在亏损时，处置效应交易者更倾向于死扛，那么对这只股票的需求意愿是强于理性交易者的（并不是说更想买，而是与纯理性者的比较）。同时处置效应交易者应该也是部分理性的，因而也有$b_t$这部分。</li>
+</ul></li>
+</ul>
+
+<p>在上面的假设的基础上，当市场达到均衡状态时，应该是需求等于供应，则有</p>
+
+<p>$$ (1-\mu)D^r_t+\mu D^d_t=1 \tag{4}\label{4}$$</p>
+
+<p>代入$Eq.\eqref{2}$和$Eq.\eqref{3}$可以解得</p>
+
+<p>$$ P_t = w F_t + (1-w) R_t, \quad where \quad w = \frac {1} {1+\mu\lambda} \tag{5}\label{5} $$</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Yaocheng Ye</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-05-31</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D/">行为金融</a>
+          
+          <a href="/tags/%E5%AE%9E%E8%AF%81%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/">实证资产定价</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Yaocheng Ye</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

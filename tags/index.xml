@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Yaocheng Ye</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Yaocheng Ye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>实证资产定价</title>
+      <link>http://localhost:1313/tags/%E5%AE%9E%E8%AF%81%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/</link>
+      <pubDate>Thu, 31 May 2018 17:35:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E5%AE%9E%E8%AF%81%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>行为金融</title>
+      <link>http://localhost:1313/tags/%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D/</link>
+      <pubDate>Thu, 31 May 2018 17:35:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

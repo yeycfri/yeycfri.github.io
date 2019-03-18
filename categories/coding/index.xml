@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on Yaocheng Ye</title>
+    <link>https://yeycfri.github.io/categories/coding/</link>
+    <description>Recent content in coding on Yaocheng Ye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Sep 2017 09:40:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://yeycfri.github.io/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python学习笔记</title>
+      <link>https://yeycfri.github.io/post/learning-python/</link>
+      <pubDate>Mon, 25 Sep 2017 09:40:49 +0800</pubDate>
+      
+      <guid>https://yeycfri.github.io/post/learning-python/</guid>
+      <description>&lt;p&gt;记录学习Python过程中遇到的问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learning Go</title>
+      <link>https://yeycfri.github.io/post/learning-go/</link>
+      <pubDate>Wed, 05 Jul 2017 13:35:28 +0800</pubDate>
+      
+      <guid>https://yeycfri.github.io/post/learning-go/</guid>
+      <description>&lt;p&gt;Golang主要学习资源总结&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

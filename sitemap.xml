@@ -17,13 +17,6 @@
   </url>
   
   <url>
-    <loc>https://yeycfri.github.io/post/finance-report/</loc>
-    <lastmod>2019-03-18T19:28:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yeycfri.github.io/post/learning-python/</loc>
     <lastmod>2019-03-18T19:28:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -32,13 +25,6 @@
   
   <url>
     <loc>https://yeycfri.github.io/post/learning-go/</loc>
-    <lastmod>2019-03-18T19:28:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yeycfri.github.io/post/energetic/</loc>
     <lastmod>2019-03-18T19:28:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -86,13 +72,6 @@
   
   <url>
     <loc>https://yeycfri.github.io/categories/%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D/</loc>
-    <lastmod>2019-03-18T19:28:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yeycfri.github.io/categories/%E8%B4%A2%E5%8A%A1/</loc>
     <lastmod>2019-03-18T19:28:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>

@@ -6,10 +6,22 @@
     <description>Recent content on Yaocheng Ye</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 May 2018 21:04:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2019 17:20:27 +0800</lastBuildDate>
     
 	<atom:link href="https://yeycfri.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Factor-Analyzer</title>
+      <link>https://yeycfri.github.io/post/factor-analyzer/</link>
+      <pubDate>Sun, 17 Mar 2019 17:20:27 +0800</pubDate>
+      
+      <guid>https://yeycfri.github.io/post/factor-analyzer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;单因子评估&lt;/li&gt;
+&lt;li&gt;多因子评估&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>About Me</title>
@@ -17,38 +29,8 @@
       <pubDate>Wed, 30 May 2018 21:04:28 +0800</pubDate>
       
       <guid>https://yeycfri.github.io/about/</guid>
-      <description>About Me Interested in quantitative trading and behavioral finance.
-Master of Computer Science @ Zhejiang University
-Bachelor of Software Engineering @ Zhejiang University</description>
-    </item>
-    
-    <item>
-      <title>处置效应与动量</title>
-      <link>https://yeycfri.github.io/post/dispostion-effect/</link>
-      <pubDate>Wed, 30 May 2018 17:35:55 +0800</pubDate>
-      
-      <guid>https://yeycfri.github.io/post/dispostion-effect/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;处置效应，即交易者在盈利时倾向于获利了结，而亏损时往往死扛。这可以从前景理论和心理账户理论来得到解释：股票账面盈利时，获利了结相当于是收益确定的，即前景理论中确定效应，在收益上风险厌恶；股票账面亏损时，交易者是风险偏好的，因而不愿意实现亏损。同时，不同的股票在交易者心中对应的是不同的心理账户，互不影响。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>Python学习笔记</title>
-      <link>https://yeycfri.github.io/post/learning-python/</link>
-      <pubDate>Mon, 25 Sep 2017 09:40:49 +0800</pubDate>
-      
-      <guid>https://yeycfri.github.io/post/learning-python/</guid>
-      <description>&lt;p&gt;记录学习Python过程中遇到的问题。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Learning Go</title>
-      <link>https://yeycfri.github.io/post/learning-go/</link>
-      <pubDate>Wed, 05 Jul 2017 13:35:28 +0800</pubDate>
-      
-      <guid>https://yeycfri.github.io/post/learning-go/</guid>
-      <description>&lt;p&gt;Golang主要学习资源总结&lt;/p&gt;</description>
+      <description>About Me Master of Computer Science, Zhejiang University
+Bachelor of Software Engineering, Zhejiang University</description>
     </item>
     
   </channel>
